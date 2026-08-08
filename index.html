@@ -293,20 +293,27 @@ li{margin-bottom:9px;}
 .concept h4{margin:0 0 6px;color:var(--parchment);letter-spacing:0.02em;font-size:0.78rem;}
 .concept p{font-size:0.94rem;color:var(--parchment-dim);margin:0;}
 
-.poem-section{background:radial-gradient(ellipse at center, rgba(47,122,69,0.10), rgba(10,15,10,0) 65%), var(--ink-2);}
+.poem-section{
+  position:relative;
+  background:
+    linear-gradient(rgba(6,7,6,0.88), rgba(6,7,6,0.93)),
+    repeating-conic-gradient(#efe9d8 0% 25%, #14140f 0% 50%);
+  background-size:auto, 120px 120px;
+  background-position:center;
+}
 .note-frame{
-  position:relative;border:2px solid var(--brass);padding:6px;background:rgba(47,122,69,0.03);
+  position:relative;border:2px solid var(--brass);padding:6px;background:rgba(10,10,10,0.4);
 }
 .note-frame::before{
-  content:"";position:absolute;inset:6px;border:1px solid var(--note-green-bright);opacity:0.55;pointer-events:none;
+  content:"";position:absolute;inset:6px;border:1px solid rgba(233,228,214,0.5);opacity:0.6;pointer-events:none;
 }
 .note-frame::after{
-  content:"";position:absolute;inset:10px;pointer-events:none;opacity:0.35;
+  content:"";position:absolute;inset:10px;pointer-events:none;opacity:0.3;
   background-image:repeating-linear-gradient(45deg, rgba(176,141,62,0.5) 0 1px, transparent 1px 5px);
   -webkit-mask-image:linear-gradient(180deg, black, black 14px, transparent 14px, transparent calc(100% - 14px), black calc(100% - 14px));
   mask-image:linear-gradient(180deg, black, black 14px, transparent 14px, transparent calc(100% - 14px), black calc(100% - 14px));
 }
-.poem-frame{position:relative;padding:44px 40px;background:rgba(233,228,214,0.015);}
+.poem-frame{position:relative;padding:44px 40px;background:rgba(6,7,6,0.55);}
 .note-corners{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px;position:relative;z-index:1;}
 .note-corners .denom{
   font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--brass-bright);
@@ -392,16 +399,16 @@ footer .sigil{font-size:1.4rem;color:var(--brass);margin-bottom:14px;display:blo
 <main class="wrap">
 <section id="poem" class="poem-section poem-epigraph">
   <p class="eyebrow" style="text-align:center;">Before anything else</p>
-  <p class="lede" style="text-align:center;">An original poem, written first and read only afterward against everything on this page — three short stanzas that map, almost exactly, onto all of it: the board, the blindfolding hands, the howl of ontological shock, and an Eye that never once looks away.</p>
+  <p class="lede" style="text-align:center;">A poem, written before any of the argument that follows. It comes first because everything after it is really just an attempt to explain what's already happening in it.</p>
 
   <div class="note-frame">
     <div class="guilloche-rule" style="margin-bottom:0;"></div>
     <div class="poem-frame">
-      <div class="poem-watermark" aria-hidden="true">◉</div>
+      <div class="poem-watermark" aria-hidden="true">♟</div>
       <div class="note-corners">
-        <span class="denom">I</span>
-        <span class="note-series">SERIES&nbsp;MMXXVI &middot; ANNUIT&nbsp;COEPTIS</span>
-        <span class="denom">I</span>
+        <span class="denom">♟</span>
+        <span class="note-series">SERIES&nbsp;MMXXVI &middot; THE&nbsp;KING'S&nbsp;GAME</span>
+        <span class="denom">♟</span>
       </div>
       <div class="poem-title">The King's Game</div>
       <div class="poem-subtitle">A Pawn's Prayer</div>
@@ -459,7 +466,7 @@ footer .sigil{font-size:1.4rem;color:var(--brass);margin-bottom:14px;display:blo
     <div class="concept"><span class="glyph">🔺</span><h4>Novus Ordo Seclorum</h4><p>The Great Seal's second motto, "a new order of the ages" — designed by a Franklin/Jefferson/Adams committee in 1776 and printed on the dollar bill since 1935, thirteen letters deep, echoing the thirteen states above the pyramid.</p></div>
   </div>
 
-  <p>The poem this page opened with — without ever naming any of this vocabulary — describes exactly this experience: being a small piece on a board much larger than oneself, blindfolded by "countless hands," and ultimately seen anyway. Read back against the vocabulary just introduced, it maps almost line for line:</p>
+  <p>The poem this page opened with doesn't use any of the words above, but it's describing the same thing: a small piece on a board much larger than itself, blindfolded by "countless hands," and seen anyway. A few lines, read back against the vocabulary just introduced:</p>
 
   <div class="line-map">
     <div class="row">
