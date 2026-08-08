@@ -1,32 +1,27 @@
-<img src="images/eye_pyramid_full.png" alt="The Eye of Providence atop the unfinished pyramid" width="360">
+<img src="images/eye_pyramid_full.png" alt="The Eye of Providence above the unfinished pyramid, engraved on the Great Seal of the United States" width="420">
 
-# The All-Seeing Eye & The Hidden Hand
+# American Esoterica
 
-**A field guide to Egregores, Archons, Powers & Principalities, Kierkegaard's Crowd, and the architecture of plausible deniability — from an ancient warning to the powerful, to a poem about a pawn on the board.**
+### The Eye of Providence &amp; The Hidden Hand
 
-Every civilization has produced a version of the same warning: the people who run things are rarely visible, and the truest form of power is exercised quietly. This site collects the vocabulary — biblical, philosophical, esoteric, and modern-bureaucratic — that different traditions have used to describe exactly that, and shows how it all describes the same underlying architecture from different angles.
+**What's actually hiding on the back of a dollar bill — and why the pyramid was left without a top.**
 
-It moves through nine chapters:
+This is a long-form field guide connecting a symbol almost everyone has looked at and almost no one has been taught to read. Starting from the Eye of Providence and the unfinished pyramid on the Great Seal, it traces one argument across scripture, philosophy, history, and mathematics: that the oldest religious language about hidden powers and watching eyes is also the most precise description we have of how large institutions actually behave.
 
-- **The Undying Worm & the Powers of the Air** — Ephesians 6:12, Gnostic Archons, and Walter Wink's reading of institutions as spiritual entities
-- **The All-Seeing Eye** — from the Eye of Providence and the Eye of Horus to Bentham's Panopticon and its modern inversion
-- **The Hidden Hand** — the hand-in-waistcoat pose, Napoleon's portraits, and France's covert arming of the American Revolution
-- **The Crowd & the Administrative State** — Kierkegaard's diffusion of responsibility, mapped onto SOP, compartmentalization, and bureaucratic strategic silence
-- **Ontological Shock** — why esoteric traditions ration truth, read through Plato's Cave, The Matrix, and Alice in Wonderland
-- **The Poem** — an original three-stanza poem, "In the Game of Life," presented in full and read line-by-line against every concept above
-- **Synthesis** — connecting every thread into one unified picture
-- **Further Reading** — a full categorized bibliography, from Manly P. Hall to Michel Foucault
+**The throughline, in short:** every system big enough to outgrow any single person's judgment develops something like a will of its own — scripture calls it a "power or principality," occultism calls it an *egregore*. That system survives by staying diffuse and unaccountable, an architecture Kierkegaard named "the Crowd" and modern bureaucracies perfected as plausible deniability. Its one vulnerability is total, unmediated visibility — the original meaning of the All-Seeing Eye, standing *coram Deo*, before an eye that cannot be lobbied, briefed, or managed.
 
-The site is themed around the Eye of Providence — the favicon is a tight crop straight from the eye on the reverse of the U.S. one-dollar bill, and the hero image is Ingres's 1804 portrait of Napoleon in the classic "Hidden Hand" pose.
+**What's actually in it:**
+- The Undying Worm (Mark 9:48) read as Gnostic Archons and psychological parasitism, illustrated with the Ouroboros
+- Kierkegaard's Crowd, Hobbes's *Leviathan*, and Gustave Le Bon's crowd psychology, tracing straight through to Edward Bernays and the modern press office
+- Plausible deniability explained honestly — where it's a legitimate structural necessity (due process, operational security) and exactly where it curdles into institutional gaslighting
+- The Eye of Providence's real scriptural roots (Proverbs 15:3, Hebrews 4:13, Matthew 6:22–23, Job 34:21–22), the Eye of Horus and its six mathematical fractions, and Bentham's Panopticon
+- **The missing capstone**: how an Egyptian pyramidion was engineered to look divine, how Pharaoh's priesthood actually managed him with incense and staged ritual — and why the Great Seal's pyramid was deliberately left without anyone standing on top of it
+- Washington's refusal of a crown at Newburgh, set directly against Napoleon crowning himself at Notre-Dame — same hand-in-waistcoat pose, opposite choice
+- Thomas Jefferson's actual (smaller) role in the seal's design, and the razor he took to the Gospels
+- Freemasonry's own teaching tools — the rough and perfect ashlar, Hiram Abiff, the checkered pavement, Boaz and Jachin, Euclid's 47th Proposition — each paired with the Bible verse it's built on
+- Synchronicity, apophenia, and an honest account of both explanations for why patterns start appearing once you're looking for them
+- Ontological shock, read through Plato's Cave, *The Matrix*, and *Alice in Wonderland*, and why "enlightenment" and "illumination" ended up as the same word doing two different jobs
+- An original poem, *The King's Game*, presented in full and read line by line against everything above
+- A full, categorized bibliography — real philosophers, real historians, real primary sources — for anyone who wants to go past the summary
 
----
-
-### Running locally / deploying
-
-This is a static site — plain HTML/CSS, no build step, no dependencies.
-
-1. Clone the repo
-2. Open `index.html` in a browser, or serve the folder with any static server
-3. To deploy: push to GitHub and enable **GitHub Pages** (Settings → Pages → Deploy from branch → `main` / root)
-
-Files: `index.html`, `404.html`, `robots.txt`, `sitemap.xml`, `.nojekyll`, and an `images/` folder containing the favicon set, hero art, and OG image.
+None of it requires believing in a conspiracy. Read narrowly, it's a study in institutional psychology. Read esoterically, it's a map of two forces — an Eye and a Hand — that mystics, Gnostics, and occult philosophers have been symbolizing for centuries.
