@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://sauerninja.github.io/All-Seeing-Eye/sitemap.xml
