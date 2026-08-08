@@ -314,10 +314,16 @@ li{margin-bottom:9px;}
   -webkit-mask-image:linear-gradient(180deg, black, black 14px, transparent 14px, transparent calc(100% - 14px), black calc(100% - 14px));
   mask-image:linear-gradient(180deg, black, black 14px, transparent 14px, transparent calc(100% - 14px), black calc(100% - 14px));
 }
-.poem-frame{position:relative;padding:44px 40px;background:rgba(6,7,6,0.4);}
+.poem-frame{position:relative;padding:44px 40px;}
+.poem .line{
+  background:rgba(6,7,6,0.68);
+  padding:3px 10px;
+  -webkit-box-decoration-break:clone;box-decoration-break:clone;
+  border-radius:2px;
+}
 .note-corners{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px;position:relative;z-index:1;}
 .note-corners .denom{
-  font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--brass-bright);
+  font-family:var(--serif);font-style:normal;font-size:1.1rem;color:var(--brass-bright);
   border:1px solid var(--brass);border-radius:50%;width:38px;height:38px;
   display:flex;align-items:center;justify-content:center;
 }
@@ -414,28 +420,28 @@ footer .sigil{font-size:1.4rem;color:var(--brass);margin-bottom:14px;display:blo
       <div class="poem-subtitle">A Pawn's Prayer</div>
       <div class="poem">
         <div class="stanza">
-          In the game of life,<br>
-          It seemed to me a chessboard of kings,<br>
-          Set in black and white.<br>
-          But I lingered at that table for a truly long time,<br>
-          Rooted in place; I was but a pitiful pawn.<br>
-          Countless hands covered my eyes.
+          <span class="line">In the game of life,</span><br>
+          <span class="line">It seemed to me a chessboard of kings,</span><br>
+          <span class="line">Set in black and white.</span><br>
+          <span class="line">But I lingered at that table for a truly long time,</span><br>
+          <span class="line">Rooted in place; I was but a pitiful pawn.</span><br>
+          <span class="line">Countless hands covered my eyes.</span>
         </div>
         <div class="stanza">
-          God looked down upon me on the board,<br>
-          And left me in the game.<br>
-          He did not let me helplessly fade away.<br>
-          Even when I howled at Him like a beast,<br>
-          God did not strike me down.<br>
-          His compassion for me only deepened.
+          <span class="line">God looked down upon me on the board,</span><br>
+          <span class="line">And left me in the game.</span><br>
+          <span class="line">He did not let me helplessly fade away.</span><br>
+          <span class="line">Even when I howled at Him like a beast,</span><br>
+          <span class="line">God did not strike me down.</span><br>
+          <span class="line">His compassion for me only deepened.</span>
         </div>
         <div class="stanza">
-          When I offered my prayers to the river,<br>
-          God did not condemn me for my irreverence.<br>
-          Instead, He stepped beside me and wept.<br>
-          For God is always, infinitely good;<br>
-          He never once averted His gaze from the board.<br>
-          He knew precisely the place of the piece He Himself had set.
+          <span class="line">When I offered my prayers to the river,</span><br>
+          <span class="line">God did not condemn me for my irreverence.</span><br>
+          <span class="line">Instead, He stepped beside me and wept.</span><br>
+          <span class="line">For God is always, infinitely good;</span><br>
+          <span class="line">He never once averted His gaze from the board.</span><br>
+          <span class="line">He knew precisely the place of the piece He Himself had set.</span>
         </div>
       </div>
       <div class="poem-credit">— an original poem, MMXXVI</div>
