@@ -220,13 +220,18 @@ body::before{
   background:linear-gradient(180deg, rgba(10,12,10,0.35) 0%, rgba(10,12,10,0.55) 45%, var(--ink) 96%), #060706;
 }
 .hero-figure{
-  position:absolute;inset:0;width:100%;height:100%;z-index:-1;
-  display:flex;align-items:flex-end;justify-content:center;pointer-events:none;
+  position:absolute;inset:0;width:100%;height:100%;z-index:0;
+  overflow:hidden;pointer-events:none;
 }
-.hero-figure svg{width:min(70vw,640px);height:auto;opacity:0.16;filter:sepia(0.2);}
+.hero-figure img{
+  width:100%;height:100%;object-fit:cover;object-position:50% 20%;
+  opacity:0.5;filter:grayscale(0.15) sepia(0.35) contrast(1.05) brightness(0.85);
+}
 .hero-img{
-  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 15%;
-  opacity:0.55;filter:grayscale(0.25) sepia(0.25) contrast(1.05);z-index:0;
+  display:block;margin:0 auto 22px;width:96px;height:96px;border-radius:50%;
+  object-fit:cover;
+  box-shadow:0 0 0 3px rgba(201,169,97,0.5), 0 0 40px 14px rgba(10,12,10,0.85);
+  position:relative;z-index:2;
 }
 .hero-content{position:relative;z-index:2;padding:60px 24px;max-width:760px;}
 .eyebrow{font-family:var(--sans);letter-spacing:0.35em;text-transform:uppercase;font-size:12px;color:var(--brass-bright);margin-bottom:22px;opacity:0.9;}
@@ -344,34 +349,10 @@ footer .sigil{font-size:1.4rem;color:var(--brass);margin-bottom:14px;display:blo
 
 <div class="hero">
   <div class="hero-figure" aria-hidden="true">
-    <svg viewBox="0 0 400 620" role="img" aria-labelledby="heroFigTitle">
-      <title id="heroFigTitle">A silhouette in the hand-in-waistcoat pose, standing behind the Eye of Providence</title>
-      <path d="M200,40
-        C150,40 128,80 128,120
-        C128,150 138,170 138,170
-        L110,190
-        C70,220 55,280 55,340
-        L55,560
-        C55,590 75,610 100,610
-        L300,610
-        C325,610 345,590 345,560
-        L345,340
-        C345,280 330,220 290,190
-        L262,170
-        C262,170 272,150 272,120
-        C272,80 250,40 200,40 Z"
-        fill="none" stroke="#c9a961" stroke-width="2"></path>
-      <path d="M170,220 C185,260 178,340 172,400 C168,440 178,470 200,480 C222,470 232,440 228,400 C236,340 215,260 230,220"
-        fill="none" stroke="#c9a961" stroke-width="1.6" opacity="0.85"></path>
-      <path d="M230,225 C260,235 275,260 278,300 C280,330 270,350 250,355 L235,352"
-        fill="none" stroke="#c9a961" stroke-width="1.6" opacity="0.85"></path>
-      <path d="M170,225 C140,235 122,260 118,300 C116,330 126,352 148,356 L164,352"
-        fill="none" stroke="#c9a961" stroke-width="1.6" opacity="0.85"></path>
-      <line x1="200" y1="40" x2="200" y2="10" stroke="#c9a961" stroke-width="1" opacity="0.4"></line>
-    </svg>
+    <img src="images/napoleon_hero.jpg" alt="">
   </div>
-  <img class="hero-img" src="images/eye_pyramid_full.png" alt="The Eye of Providence above the unfinished pyramid, engraved on the Great Seal of the United States" loading="eager">
   <div class="hero-content">
+    <img class="hero-img" src="images/eye_badge.png" alt="The Eye of Providence, from the Great Seal of the United States" loading="eager">
     <div class="eyebrow">Annuit Cœptis · 1776</div>
     <h1>American <em>Esoterica</em></h1>
     <p class="sub" style="margin-bottom:0.4em;font-style:normal;letter-spacing:0.08em;text-transform:uppercase;font-size:0.85rem;color:#c9a961;">The Eye of Providence &amp; The Hidden Hand</p>
