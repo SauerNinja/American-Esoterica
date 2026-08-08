@@ -295,14 +295,15 @@ li{margin-bottom:9px;}
 
 .poem-section{
   position:relative;
-  background:
-    linear-gradient(rgba(6,7,6,0.88), rgba(6,7,6,0.93)),
-    repeating-conic-gradient(#efe9d8 0% 25%, #14140f 0% 50%);
-  background-size:auto, 120px 120px;
-  background-position:center;
+  background:var(--ink-2);
 }
 .note-frame{
-  position:relative;border:2px solid var(--brass);padding:6px;background:rgba(10,10,10,0.4);
+  position:relative;border:2px solid var(--brass);padding:6px;
+  background:
+    linear-gradient(rgba(6,7,6,0.55), rgba(6,7,6,0.6)),
+    repeating-conic-gradient(#efe9d8 0% 25%, #1c1c16 0% 50%);
+  background-size:auto, 90px 90px;
+  background-position:center;
 }
 .note-frame::before{
   content:"";position:absolute;inset:6px;border:1px solid rgba(233,228,214,0.5);opacity:0.6;pointer-events:none;
@@ -313,7 +314,7 @@ li{margin-bottom:9px;}
   -webkit-mask-image:linear-gradient(180deg, black, black 14px, transparent 14px, transparent calc(100% - 14px), black calc(100% - 14px));
   mask-image:linear-gradient(180deg, black, black 14px, transparent 14px, transparent calc(100% - 14px), black calc(100% - 14px));
 }
-.poem-frame{position:relative;padding:44px 40px;background:rgba(6,7,6,0.55);}
+.poem-frame{position:relative;padding:44px 40px;background:rgba(6,7,6,0.4);}
 .note-corners{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px;position:relative;z-index:1;}
 .note-corners .denom{
   font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--brass-bright);
@@ -407,7 +408,6 @@ footer .sigil{font-size:1.4rem;color:var(--brass);margin-bottom:14px;display:blo
       <div class="poem-watermark" aria-hidden="true">♟</div>
       <div class="note-corners">
         <span class="denom">♟</span>
-        <span class="note-series">SERIES&nbsp;MMXXVI &middot; THE&nbsp;KING'S&nbsp;GAME</span>
         <span class="denom">♟</span>
       </div>
       <div class="poem-title">The King's Game</div>
